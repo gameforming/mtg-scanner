@@ -1,0 +1,61 @@
+```html
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MTG Scanner</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>MTG Scanner</h1>
+        <p>Zoek kaarten en voeg ze toe aan je collectie</p>
+    </header>
+
+    <main>
+
+        <section class="search-box">
+            <input
+                id="searchInput"
+                type="text"
+                placeholder="Zoek bijvoorbeeld Lightning Bolt..."
+                autocomplete="off"
+            >
+
+            <button id="searchButton">
+                Zoeken
+            </button>
+        </section>
+
+        <p id="status"></p>
+
+        <section id="results" class="results"></section>
+
+        <section class="collection-section">
+
+            <div class="section-header">
+                <h2>Mijn collectie</h2>
+
+                <div>
+                    <strong id="cardCount">0</strong> kaarten
+                    ·
+                    <strong>€<span id="totalValue">0.00</span></strong>
+                </div>
+            </div>
+
+            <div id="collection" class="collection"></div>
+
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
+```
