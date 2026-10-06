@@ -1,4 +1,4 @@
-```javascript
+
 const API_URL = "https://api.scryfall.com";
 
 const searchInput = document.getElementById("searchInput");
@@ -299,4 +299,4 @@ function escapeHtml(value) {
 // Initial render
 
 renderCollection();
-```
+
